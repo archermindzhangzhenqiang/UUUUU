@@ -1,0 +1,24 @@
+diff --git a/OOO/OOO/ViewController.h b/OOO/OOO/ViewController.h
+index 6b697f0..69e6196 100644
+--- a/OOO/OOO/ViewController.h
++++ b/OOO/OOO/ViewController.h
+@@ -10,6 +10,7 @@
+ 
+ @interface ViewController : UIViewController
+ 
++@property(copy)BOOL yes;
+ 
+ @end
+ 
+diff --git a/OOO/OOO/ViewController.m b/OOO/OOO/ViewController.m
+index af5950d..85f797c 100644
+--- a/OOO/OOO/ViewController.m
++++ b/OOO/OOO/ViewController.m
+@@ -17,6 +17,7 @@
+ - (void)viewDidLoad {
+     [super viewDidLoad];
+     // Do any additional setup after loading the view, typically from a nib.
++    ///adadasdsadadasdsa////
+ }
+ 
+ - (void)didReceiveMemoryWarning {
